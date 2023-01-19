@@ -1,0 +1,12 @@
+.cards_section {
+  height: 100vh;
+  background-image: url(../../images/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cards_wrapper.wrapper {
+  column-gap: 80px;
+  justify-content: space-between;
+}

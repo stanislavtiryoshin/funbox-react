@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "exo";
+  src: url(./fonts/Exo2.0-Thin.otf);
+}
+@font-face {
+  font-family: "trebuchet ms";
+  src: url(./fonts/trebuc.woff);
+}
+
+body,
+html {
+  font-family: "trebuchet ms", sans-serif;
+  max-width: 100vw;
+  overflow-x: clip;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+a,
+button {
+  background: none;
+  border: none;
+  font-family: "trebuchet ms";
+  cursor: pointer;
+}
